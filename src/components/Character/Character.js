@@ -28,12 +28,6 @@ export default function Character({ head, setHead, middle, setMiddle, bottom, se
           <option value="white-pants">white pants</option>
         </select>
       </div>
-
-      <div className="parts">
-        <img alt={head} src={`${process.env.PUBLIC_URL}/assets/${head}.png`} />
-        <img alt={middle} src={`${process.env.PUBLIC_URL}/assets/${middle}.png`} />
-        <img alt={bottom} src={`${process.env.PUBLIC_URL}/assets/${bottom}.png`} />
-      </div>
     </div>
   );
 }
