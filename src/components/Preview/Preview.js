@@ -8,7 +8,7 @@ import './Preview.css';
 export default function Preview() {
   const [head, setHead] = useState('bird-head');
   const [middle, setMiddle] = useState('blue-middle');
-  const [bottom, setBottom] = useState('leg-pant');
+  const [bottom, setBottom] = useState('blue-pants');
   const [phrase, setPhrase] = useState('');
   const [phraseList, setPhraseList] = useState([]);
   const [headCount, setHeadCount] = useState(0);
@@ -39,7 +39,8 @@ export default function Preview() {
         <img alt={bottom} src={`${process.env.PUBLIC_URL}/assets/${bottom}.png`} />
       </div>
       {!!headCount && <p>You have changed the color {headCount} times. </p>}
-
+      {!!middleCount && <p>You have changed the color {middleCount} times. </p>}
+      {!!bottomCount && <p>You have changed the color {bottomCount} times. </p>}
       <Catchphrase
         {...{
           phrase,
