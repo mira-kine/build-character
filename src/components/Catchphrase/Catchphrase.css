@@ -1,0 +1,6 @@
+.phrase-form-control {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin: 10px;
+}
