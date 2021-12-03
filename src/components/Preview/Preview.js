@@ -47,9 +47,9 @@ export default function Preview() {
         <img alt={bottom} src={`${process.env.PUBLIC_URL}/assets/${bottom}.png`} />
       </div>
       <div className="counter">
-        {!!headCount && <p>You have changed the color {headCount} times. </p>}
-        {!!middleCount && <p>You have changed the color {middleCount} times. </p>}
-        {!!bottomCount && <p>You have changed the color {bottomCount} times. </p>}
+        {!!headCount && <p>You have changed the head {headCount} times. </p>}
+        {!!middleCount && <p>You have changed the middle {middleCount} times. </p>}
+        {!!bottomCount && <p>You have changed the bottom {bottomCount} times. </p>}
       </div>
       {!!phraseList.length && (
         <div className="phrase-list">
