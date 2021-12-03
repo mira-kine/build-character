@@ -2,3 +2,12 @@
   color: black;
   font-weight: 500;
 }
+
+img {
+  display: flex;
+  flex-direction: column;
+}
+
+.character {
+  display: flex;
+}

@@ -16,7 +16,7 @@ export default function Preview() {
   const [bottomCount, setBottomCount] = useState(0);
 
   return (
-    <div>
+    <div className="character">
       <Character
         {...{
           head,
@@ -33,14 +33,6 @@ export default function Preview() {
           setBottomCount,
         }}
       />
-      <div className="parts">
-        <img alt={head} src={`${process.env.PUBLIC_URL}/assets/${head}.png`} />
-        <img alt={middle} src={`${process.env.PUBLIC_URL}/assets/${middle}.png`} />
-        <img alt={bottom} src={`${process.env.PUBLIC_URL}/assets/${bottom}.png`} />
-      </div>
-      {!!headCount && <p>You have changed the color {headCount} times. </p>}
-      {!!middleCount && <p>You have changed the color {middleCount} times. </p>}
-      {!!bottomCount && <p>You have changed the color {bottomCount} times. </p>}
       <Catchphrase
         {...{
           phrase,
@@ -49,9 +41,17 @@ export default function Preview() {
           setPhraseList,
         }}
       />
+      <div className="parts">
+        <img alt={head} src={`${process.env.PUBLIC_URL}/assets/${head}.png`} />
+        <img alt={middle} src={`${process.env.PUBLIC_URL}/assets/${middle}.png`} />
+        <img alt={bottom} src={`${process.env.PUBLIC_URL}/assets/${bottom}.png`} />
+      </div>
+      {!!headCount && <p>You have changed the color {headCount} times. </p>}
+      {!!middleCount && <p>You have changed the color {middleCount} times. </p>}
+      {!!bottomCount && <p>You have changed the color {bottomCount} times. </p>}
       {!!phraseList.length && (
         <div className="phrase-list">
-          You have called your character:
+          Your character has said:
           {phraseList.map((elem) => (
             <p key={elem}>{elem}</p>
           ))}

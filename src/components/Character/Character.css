@@ -7,6 +7,8 @@ body {
 img {
   height: 250px;
   width: 200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .character-editor {
