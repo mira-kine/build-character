@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are selections 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="character-editor"
+      >
+        <div
+          class="form-control"
+        >
+          <select>
+            <option
+              value="bird-head"
+            >
+              bird
+            </option>
+            <option
+              value="duck-head"
+            >
+              duck
+            </option>
+            <option
+              value="dog-head"
+            >
+              dog
+            </option>
+            <option
+              value="horse-head"
+            >
+              horse
+            </option>
+          </select>
+        </div>
+        <div
+          class="form-control"
+        >
+          <select>
+            <option
+              value="blue-middle"
+            >
+              blue
+            </option>
+            <option
+              value="dress-middle"
+            >
+              dress
+            </option>
+            <option
+              value="pink-middle"
+            >
+              pink
+            </option>
+            <option
+              value="red-middle"
+            >
+              red
+            </option>
+          </select>
+        </div>
+        <div
+          class="form-control"
+        >
+          <select>
+            <option
+              value="blue-pants"
+            >
+              blue pants
+            </option>
+            <option
+              value="dog-pants"
+            >
+              dog pants
+            </option>
+            <option
+              value="leg-pants"
+            >
+              leg pants
+            </option>
+            <option
+              value="white-pants"
+            >
+              white pants
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="character-editor"
+    >
+      <div
+        class="form-control"
+      >
+        <select>
+          <option
+            value="bird-head"
+          >
+            bird
+          </option>
+          <option
+            value="duck-head"
+          >
+            duck
+          </option>
+          <option
+            value="dog-head"
+          >
+            dog
+          </option>
+          <option
+            value="horse-head"
+          >
+            horse
+          </option>
+        </select>
+      </div>
+      <div
+        class="form-control"
+      >
+        <select>
+          <option
+            value="blue-middle"
+          >
+            blue
+          </option>
+          <option
+            value="dress-middle"
+          >
+            dress
+          </option>
+          <option
+            value="pink-middle"
+          >
+            pink
+          </option>
+          <option
+            value="red-middle"
+          >
+            red
+          </option>
+        </select>
+      </div>
+      <div
+        class="form-control"
+      >
+        <select>
+          <option
+            value="blue-pants"
+          >
+            blue pants
+          </option>
+          <option
+            value="dog-pants"
+          >
+            dog pants
+          </option>
+          <option
+            value="leg-pants"
+          >
+            leg pants
+          </option>
+          <option
+            value="white-pants"
+          >
+            white pants
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
