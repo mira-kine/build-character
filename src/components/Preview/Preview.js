@@ -46,9 +46,11 @@ export default function Preview() {
         <img alt={middle} src={`${process.env.PUBLIC_URL}/assets/${middle}.png`} />
         <img alt={bottom} src={`${process.env.PUBLIC_URL}/assets/${bottom}.png`} />
       </div>
-      {!!headCount && <p>You have changed the color {headCount} times. </p>}
-      {!!middleCount && <p>You have changed the color {middleCount} times. </p>}
-      {!!bottomCount && <p>You have changed the color {bottomCount} times. </p>}
+      <div className="counter">
+        {!!headCount && <p>You have changed the color {headCount} times. </p>}
+        {!!middleCount && <p>You have changed the color {middleCount} times. </p>}
+        {!!bottomCount && <p>You have changed the color {bottomCount} times. </p>}
+      </div>
       {!!phraseList.length && (
         <div className="phrase-list">
           Your character has said:
